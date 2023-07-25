@@ -1,0 +1,148 @@
+.cart{
+  width: calc(100% - 320px);
+  max-height: 423px;
+  background-color: #191919;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+}
+.cart *{
+  background-color: #191919;
+}
+
+.title{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.empty{
+  color: #FFF;
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  overflow: auto;
+}
+.list::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 7px;
+}
+.list::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: linear-gradient(1800deg, #2a2a2a, #ffffff);
+}
+
+.item{
+  width: 100%;
+  background-color: #212123;
+  border-radius: 8px;
+  padding: 12px 16px;
+  height: 71px;
+  display: grid;
+  grid-template-columns: 100px 2fr 1fr 1.5fr 1fr 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item * {
+  background-color: #212123;
+}
+
+.image{
+  width: 98px;
+  height: 47px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.info{
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.name{
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.category{
+  font-size: 10px;
+  line-height: 12px;
+  color: #616E74;
+}
+
+.price{
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.quantity{
+  display: flex;
+  align-items: center;
+}
+
+.quantity span{
+  width: 40px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.minus,
+.plus{
+  border-radius: 6px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close{
+  cursor: pointer;
+}
+
+.close svg{
+  width: 16px;
+  height: 16px;
+  background-color: #707070;
+  border-radius: 8px;
+}
+
+.actions{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.total{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.proceed{
+  border-radius: 6px;
+  background: #6C3EB8;
+  width: 212px;
+  height: 38px;
+}

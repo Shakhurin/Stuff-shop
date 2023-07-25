@@ -1,0 +1,125 @@
+.blockName{
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 25px 0;
+}
+
+.products{
+  border-radius: 6px;
+  width: 100%;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 19px 0 0 0;
+}
+
+.products *{
+  background-color: #191919;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.imgitself{
+  width: 230px;
+  height: 110px;
+  border-radius: 6px 6px 0 0 ;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 230px;
+  height: 220px;
+  border-radius: 8px;
+  background-color: #232323;
+  margin: 5px 5px;
+  overflow: hidden; 
+}
+.product * {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  margin: 12px 0 5px 12px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cat{
+  margin: 0 0 0 12px;
+  color: #B8B8B8;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.oldPrice{
+  color: #576067;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line:line-through
+}
+
+.price{
+  display: flex;
+  color: #6C3EB8;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.prices{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 8px 12px;
+  height: 100%;
+}
+
+.purchases{
+  color: #576067;
+  text-align: right;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.image img{
+  max-width: 230px;
+  min-height: 110px;
+  display: flex;
+  align-items: end;
+}

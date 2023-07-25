@@ -1,0 +1,16 @@
+.wrapper{
+  width: 1274px;
+  margin: 0 auto;
+  /* flex-wrap: wrap; */
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebarThing{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-bottom: 10px; */
+}
+

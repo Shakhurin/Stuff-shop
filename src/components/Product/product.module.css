@@ -1,0 +1,159 @@
+.product{
+  display: flex;
+  width: calc(100% - 320px);
+  padding: 24px;
+  column-gap: 32px;
+  background-color: #191919;
+  border-radius: 6px;
+}
+
+.product *{
+  background-color: #191919;
+}
+
+.images{
+  display: flex;
+  gap: 20px;
+}
+
+.imagesList{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 90px;
+  height: 100%;
+}
+
+.current{
+  width: 375px;
+  height: 375px;
+  background-position: center;
+  background-repeat:no-repeat ;
+  background-size: cover;
+  border-radius: 6px;
+}
+
+.image{
+  width: 90px;
+  height: 90px;
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.price{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0 20px 0;
+}
+
+.color,
+.sizes{
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.sizes{
+  margin: 8px 0;
+}
+
+.color span,
+.sizes span{
+  line-height: 17px;
+  font-size: 14px;
+  color: #576067;
+}
+
+.list{
+  display: flex;
+  column-gap:10px ;
+}
+
+.size{
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: #212123;
+  cursor: pointer;
+}
+
+.size.active{
+  background: #6C3EB8;
+}
+
+.description{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B8B8B8;
+  margin-top: 20px;
+}
+
+.actions{
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.add{
+  height: 38px;
+  border-radius: 6px;
+  background:#6C3EB8;
+  padding: 0 10px;
+}
+
+.add:hover{
+  background: #7e48d5;
+}
+
+.favourite{
+  border-radius: 6px;
+  background:#576067;
+  padding: 0 10px;
+}
+
+.favourite:hover {
+  background: #7a8690;
+}
+
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  line-height: 12px;
+  margin-top: auto;
+}
+
+.purchase{
+  color: #576067;
+}
+
+.bottom a{
+  color: #576067;
+  text-decoration: underline;
+}
+
+.loading{
+  width: calc(100% - 320px);
+  padding: 24px;
+  background-color: #191919;
+}

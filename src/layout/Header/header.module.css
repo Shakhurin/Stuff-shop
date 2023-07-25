@@ -1,0 +1,151 @@
+.wrapper{
+  margin: 20px 0;
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;   
+  padding: 25px 20px;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.icon{
+  width: 24px;
+  height: 24px;
+  gap: 10px;
+}
+
+.shopIcons{
+  width: 71px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 10px;
+  width: auto;
+}
+
+.userName{
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.logo{
+  width: 304px;
+}
+
+.avatar img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  flex-grow: 1;
+  width: 303px;
+  height: 27px;
+  background-color: #191919;
+  border-radius: 6px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search input{
+  font-size: 12px;
+  line-height: 14px;
+  outline: none;
+  width: 100%;
+}
+
+.box{
+  margin-top: 5px;
+  z-index: 50;
+  position:absolute;
+  width: 303px;
+  max-height: 300px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: #191919;
+  row-gap: 6px;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.box::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 7px;
+}
+
+.box::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: linear-gradient(1800deg, #6C3EB8, #bda5ee);
+}
+
+.box *{
+  background-color: #212123;
+}
+
+.item{
+  font-size: 13px;
+  color: rgb(153, 152, 152);
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  border-radius: 8px;
+}
+
+.item:hover{
+  color: #ff0000;
+}
+
+.image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+}
+
+.countOfProducts{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  right: 145px;
+  top: 45px;
+  background-color: #6C3EB8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.countOfFavourites{
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 45px;
+  right: 195px;
+  background-color: #6C3EB8;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
